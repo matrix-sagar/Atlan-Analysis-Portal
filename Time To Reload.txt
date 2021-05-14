@@ -1,0 +1,8 @@
+To calculate the time required for page load:
+We calculated the time difference between the events when App.vue was 'created' and when
+App.vue was 'mounted'
+The function to calculate this has been done in the App.vue file using methods
+- created()
+- mounterd()
+and the difference is then passed to HeaderBar.vue as a prop namely (timeTakenToLoad).
+The HeaderBar displays this data along with website logo.
